@@ -37,8 +37,8 @@ class Card {
 		bool isSameSuit(const Card& c) const; 
 		bool isSameRank(const Card& c) const; 
 
-        std::string getRankString() const;
-        std::string getSuitString() const;
+		std::string getRankString() const;
+		std::string getSuitString() const;
 
 		Rank rank;
 		Suit suit;
